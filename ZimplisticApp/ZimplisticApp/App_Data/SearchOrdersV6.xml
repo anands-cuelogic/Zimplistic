@@ -1,0 +1,23 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://webservices.liquidatedirect.com/">
+   <soap:Header/>
+   <soap:Body>
+      <web:SearchOrdersV6 xmlns="http://webservices.liquidatedirect.com/">
+         <!--Optional:-->
+         <web:appKey>s5V0y5kZxmyB5n3U</web:appKey>
+         <!--Optional:-->
+         <web:securityKey>+6!p%F-u=-1!8~%~ab6*av^+=Iem=56S6%c-_^q=+Ebg_D6~8g</web:securityKey>
+         <!--Optional:-->
+      <searchFilter>
+        <page>1</page>
+        <recordsPerPageCount>8</recordsPerPageCount>
+         <filterHasStoreNotNotifiedShipmentItems>True</filterHasStoreNotNotifiedShipmentItems>
+                                <OrderStatus>PAID</OrderStatus>
+                                <OrdersSearchFormat>ByOrderItems</OrdersSearchFormat>
+                  <FilterByDates>1</FilterByDates>
+        <StartDate>2018-06-04</StartDate>
+        <EndDate>2018-10-06</EndDate>
+        <ordersSearchFormat>1</ordersSearchFormat>
+                 </searchFilter>
+      </web:SearchOrdersV6>
+   </soap:Body>
+</soap:Envelope>

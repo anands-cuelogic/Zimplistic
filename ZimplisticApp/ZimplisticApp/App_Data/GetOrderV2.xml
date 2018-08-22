@@ -1,0 +1,20 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://webservices.liquidatedirect.com/">
+   <soap:Header/>
+   <soap:Body>
+      <web:GetOrderV2>
+         <!--Optional:-->
+         <web:appKey>s5V0y5kZxmyB5n3U</web:appKey>
+         <!--Optional:-->
+         <web:securityKey>+6!p%F-u=-1!8~%~ab6*av^+=Iem=56S6%c-_^q=+Ebg_D6~8g</web:securityKey>
+         <!--Optional:-->
+         <web:xslUri></web:xslUri>
+         <web:saleID>1057064</web:saleID>
+         <!--Optional:-->
+         <web:isLoadPayments></web:isLoadPayments>
+         <!--Optional:-->
+         <web:isLoadWarehouseName></web:isLoadWarehouseName>
+         <!--Optional:-->
+         <web:isLoadAlternateSKUs></web:isLoadAlternateSKUs>
+      </web:GetOrderV2>
+   </soap:Body>
+</soap:Envelope>

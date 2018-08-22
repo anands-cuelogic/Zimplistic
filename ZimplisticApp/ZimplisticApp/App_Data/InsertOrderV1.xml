@@ -1,0 +1,92 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://webservices.liquidatedirect.com/">
+   <soap:Header/>
+   <soap:Body>
+      <web:InsertOrderV1 xmlns="http://webservices.liquidatedirect.com/">
+         <!--Optional:-->
+         <web:appKey>s5V0y5kZxmyB5n3U</web:appKey>
+         <!--Optional:-->
+         <web:devKey>+6!p%F-u=-1!8~%~ab6*av^+=Iem=56S6%c-_^q=+Ebg_D6~8g</web:devKey>
+         <!--Optional:-->
+         <web:orders>
+            <!--Zero or more repetitions:-->
+            <web:GeneralOrderModel>
+               <!--Optional:-->
+               <web:ShipToAddress>
+                  <!--Optional:-->
+                  <web:City>Alpharetta</web:City>
+                  <!--Optional:-->
+                  <web:Country>US</web:Country>
+                  <!--Optional:-->
+                  <web:Email>test@test.com</web:Email>
+                  <!--Optional:-->
+                  <web:Name>API test order</web:Name>
+                  <!--Optional:-->
+                  <web:Company></web:Company>
+                  <!--Optional:-->
+                  <web:Phone>1234567890</web:Phone>
+                  <!--Optional:-->
+                  <web:State>GA</web:State>
+                  <!--Optional:-->
+                  <web:Street1>12380 Morris Road</web:Street1>
+                  <!--Optional:-->
+                  <web:Street2></web:Street2>
+                  <!--Optional:-->
+                  <web:Zip>30005</web:Zip>
+               </web:ShipToAddress>
+               <web:AllowBackOrder>false</web:AllowBackOrder>
+               <web:InsuranceFee>1</web:InsuranceFee>
+               <web:InsuranceRequested>false</web:InsuranceRequested>
+               <web:OrderDatetime>2018-07-18T18:24:20.5099591Z</web:OrderDatetime>
+               <web:OrderTotal>1</web:OrderTotal>
+               <web:SalesTaxAmount>0</web:SalesTaxAmount>
+               <web:SalesTaxPercent>0</web:SalesTaxPercent>
+               <!--Optional:-->
+               <web:MarketplaceShippingMethod>UPSGround</web:MarketplaceShippingMethod>
+               <web:TotalShippingFee>0</web:TotalShippingFee>
+               <!--Optional:-->
+               <web:SalesChannelOrderId>2018071801</web:SalesChannelOrderId>
+               <!--Optional:-->
+               <web:GiftMessage>Gift message</web:GiftMessage>
+               <!--Optional:-->
+               <web:RecipientInstructions>Test recipient instructions</web:RecipientInstructions>
+               <!--Optional:-->
+               <web:SalesChannel>Web store</web:SalesChannel>
+               <web:Status>PAID</web:Status>
+               <!--Optional:-->
+               <web:OrderItems>
+                  <!--Zero or more repetitions:-->
+                  <web:OrderItemModel>
+                     <!--Optional:-->
+                     <web:SalesChannelSKU>APITESTSKU2</web:SalesChannelSKU>
+                     <!--Optional:-->
+                     <web:InventorySourceName>Main</web:InventorySourceName>
+                     <!--Optional:-->
+                     <web:SalesChannelListingId></web:SalesChannelListingId>
+                     <!--Optional:-->
+                     <web:SalesChannelOrderItemId>2018072601001</web:SalesChannelOrderItemId>
+                     <!--Optional:-->
+                     <web:OrderItemStorageLocation></web:OrderItemStorageLocation>
+                     <!--Optional:-->
+                     <web:ItemTitle>API Test Product title</web:ItemTitle>
+                     <!--Optional:-->
+                     <web:Upc></web:Upc>
+                     <web:ProductPrice>0</web:ProductPrice>
+                     <web:ShippingFee>0</web:ShippingFee>
+                     <web:InsuranceFee>0</web:InsuranceFee>
+                     <web:GiftWrapFee>0</web:GiftWrapFee>
+                     <web:Qty>1</web:Qty>
+                     <web:SalesTaxAmount>0</web:SalesTaxAmount>
+                     <web:InsuranceRequested>false</web:InsuranceRequested>
+                     <web:DiscountAmount>0</web:DiscountAmount>
+                     <!--Optional:-->
+                     <web:GiftWrap>false</web:GiftWrap>
+                     <!--Optional:-->
+                     <web:GiftMessage>Test gift message</web:GiftMessage>
+                     <web:CommissionFee>0</web:CommissionFee>
+                  </web:OrderItemModel>
+               </web:OrderItems>
+            </web:GeneralOrderModel>
+         </web:orders>
+      </web:InsertOrderV1>
+   </soap:Body>
+</soap:Envelope>
